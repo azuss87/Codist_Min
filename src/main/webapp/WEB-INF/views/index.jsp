@@ -170,7 +170,7 @@
 				<table class="serch">
 					<tr>
 						<td>		
-							검색 : <input type="text" width="50px">
+							검  색 : <input type="text" width="50px">
 							<input type="button" value="검색"> 
 						</td>						
 					</tr>
