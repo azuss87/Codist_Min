@@ -77,8 +77,8 @@
 		<div id="center">
            <div id="list">
                <ul id="topUi">
-                   <li id="topLi"><a href="findId()" value="#">아이디 찾기</a></li>
-                   <li id="topLi"><a href="findPw()" value="#">비밀번호 찾기</a></li>
+                   <li id="topLi"><a href="findId" >아이디 찾기</a></li>
+                   <li id="topLi"><a href="findPw">비밀번호 찾기</a></li>
                </ul>
            </div>
         <div id="center2">

@@ -164,7 +164,7 @@
 		<div id="extra">
 			<div>
 				<jsp:include page="loginBox.jsp"></jsp:include>
-				<a href="findId.jsp" title="">아이디/비밀번호 찾기</a>
+				<a href="findId" >아이디/비밀번호 찾기</a>
 				<jsp:include page="login.jsp"></jsp:include>
 			</div>
 			<br/>

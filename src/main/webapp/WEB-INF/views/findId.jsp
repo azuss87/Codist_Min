@@ -74,8 +74,8 @@
 		 <div id="center">
     <div id="list">
         <ul id="topUi">
-            <li id="topLi"><a href="#" value="#">아이디 찾기</a></li>
-            <li id="topLi"><a href="#" value="#">비밀번호 찾기</a></li>
+            <li id="topLi"><a href="findId" >아이디 찾기</a></li>
+            <li id="topLi"><a href="findPw">비밀번호 찾기</a></li>
         </ul>
     </div>
     <h4 id="idf">아이디 찾기</h4>
@@ -85,7 +85,7 @@
     <br/>
     <br/> ■<b>본인 확인용 정보로 찾기</b>
     <br/>
-    <form id="findId" action="#">
+    <form id="idFind" action="#">
         <ul>
             <li>이름 :
                 <input id="userName" type="text" size="14" maxlength="14" />
@@ -106,6 +106,7 @@
 	
 	</body>
 	<script>
+	 
 		
 	
 	</script>

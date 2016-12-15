@@ -19,5 +19,16 @@ public class HomeController {
 
 		return "index";
 	}
-	
+	@RequestMapping(value = "/findId")
+	public String findId(Locale locale) {
+				
+
+		return "findId";
+	}
+	@RequestMapping(value = "/findPw")
+	public String findPw(Locale locale) {
+				
+
+		return "findPw";
+	}
 }
