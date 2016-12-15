@@ -120,7 +120,7 @@
 			}
 			
 			tr.menu, td.menu{
-				/* background-color: aqua; */
+				background-color: aqua;
 			}
 			
 			table.serch{
@@ -164,6 +164,7 @@
 		<div id="extra">
 			<div>
 				<jsp:include page="loginBox.jsp"></jsp:include>
+				<a href="findId.jsp" title="">아이디/비밀번호 찾기</a>
 				<jsp:include page="login.jsp"></jsp:include>
 			</div>
 			<br/>
@@ -192,4 +193,7 @@
 			</table>
 		</div>			
 	</body>
+	<script>
+		
+	</script>
 </html>
