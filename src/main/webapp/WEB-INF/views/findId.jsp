@@ -91,7 +91,17 @@
                 <input id="userName" type="text" size="14" maxlength="14" />
             </li>
             <li>phone :
-                <input id="phone" type="text" size="16" maxlength="16" />
+                <select id="phone1">
+                        <option value="">선택하세요</option>
+                        <option value="010">010</option>
+                        <option value="011">011</option>
+                        <option value="016">016</option>
+                        <option value="017">017</option>
+                        <option value="018">018</option>
+                        <option value="019">019</option>
+               </select>
+               - <input id="phone2" type="text" size="6" maxlength="6"/>
+                - <input id="phone3" type="text" size="6" maxlength="6"/>       
             </li>
             <li>이메일 :
                 <input id="email1" type="text" size="16" maxlength="16" /> @
