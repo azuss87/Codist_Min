@@ -5,7 +5,7 @@
 	<head>
 		<script src="https://code.jquery.com/jquery-3.1.0.min.js"></script>
 		<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
-		<title>Insert title here</title>
+		<title>바부</title>
 		<style>		
 			#head {
 				margin-left: 10px;
@@ -171,7 +171,7 @@
 				<table class="serch">
 					<tr>
 						<td>		
-							검색 : <input type="text" width="50px">
+							검  색 : <input type="text" width="50px">
 							<input type="button" value="검색"> 
 						</td>						
 					</tr>
