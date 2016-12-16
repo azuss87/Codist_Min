@@ -136,7 +136,10 @@
 				border: 1px solid;
 				padding: 5px;
 			}
+<<<<<<< HEAD
 			
+=======
+>>>>>>> 8b095a68945e59e0110e90d56674d4ce456a96b9
 			#content{
 				margin-left: 130px;
 				margin-right: 130px;				
