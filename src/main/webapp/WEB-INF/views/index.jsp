@@ -136,7 +136,7 @@
 				border: 1px solid;
 				padding: 5px;
 			}
-			#contents{
+			#content{
 				margin-left: 130px;
 				margin-right: 130px;				
 				width: 850px;
