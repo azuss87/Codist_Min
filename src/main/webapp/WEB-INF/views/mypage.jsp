@@ -25,30 +25,33 @@
 		.right{
 			text-align: right;
 		}
+		.content{
+			border: 1px solid;
+				margin-left: 130px;
+				margin-right: 130px;				
+				width: 850px;
+		}
 		
 		
 		</style>
  	</head>
+ 	
   	<body>
-  	<jsp:include page="index.jsp"></jsp:include>
-  	<div id="content">
-  	<div id="in">
-  	<jsp:include page="mypagehome.jsp"></jsp:include>
-  	</div>
-   		
-   		<table id="total" align="">
-   			<tr>
-				<td>
-					<div>
-				   		<table id="info">
+	  	<jsp:include page="index.jsp"></jsp:include>
+  	<div class="content">   
+  			<div>
+  			<jsp:include page="mypagehome.jsp"></jsp:include>
+  			</div>
+
+			<table id="info">
 				   		 
-				            <tr>
-				                <td>아이디 :<input type="text"/></td>
-				            </tr>
-				             <tr>
-				                <td>가입일 :<input type="text"/></td>
-				            </tr>
-				             <tr>
+				 <tr>
+					  <td>아이디 :<input type="text"/></td>
+			          </tr>
+				 <tr>
+					   <td>가입일 :<input type="text"/></td>
+					   </tr>
+					    <tr>
 				                <td>생년월일 :<input type="text"/></td>
 				            </tr>
 				             <tr>
@@ -65,10 +68,7 @@
 				            	</td>
 				            </tr>
 				            </table>
-    				</div>
-				</td>   			
-   			</tr>    		
-    		</table>
-    		</div>    		
+    				
+    				 </div>  		    	  		
   	</body>
 </html>

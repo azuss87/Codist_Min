@@ -56,7 +56,8 @@
 		</style>
 	</head>
 	<body>		
-		<jsp:include page="index.jsp"/>		
+		<jsp:include page="index.jsp"/>
+		<div class="content">		
 		<table class="Ft_board1" align="center">
 			<tr>
 			 	<td id="Ft_sub" colspan="6">
@@ -117,7 +118,8 @@
 				%>					
 				</td>				
 			</tr>						
-		</table>		
+		</table>
+		</div>		
 	</body>
 	<script>	
 	</script>

@@ -136,21 +136,34 @@
 				border: 1px solid;
 				padding: 5px;
 			}
-<<<<<<< HEAD
-			
-=======
->>>>>>> 8b095a68945e59e0110e90d56674d4ce456a96b9
-			#content{
+
+			.content{				
 				margin-left: 130px;
 				margin-right: 130px;				
-				width: 850px;
-			}			
+				width: 840px;
+			}
+			
+			#ask{
+				border: 1px solid;
+				height: 150px;
+			}
+			
+			#ask1{
+				text-align: center;
+			}
+			
+			#askBox{
+				border: white;				
+				resize:none;
+			}
+			
+						
 		
 		</style>
 	</head>
 	<body>
 		<div id="head">
-			<img alt="로고" src="#">
+			<img alt="로고" src="rr.jpg">
 		</div>
 		
 		<div id="weather">
@@ -174,13 +187,19 @@
 				<table class="serch">
 					<tr>
 						<td>		
-							검  색 : <input type="text" width="50px">
+							<input type="text" width="50px">
 							<input type="button" value="검색"> 
 						</td>						
 					</tr>
 				</table>
-			<a class="bottom" href="#" title="">Bottom</a>
-			<p>1:1 문의</p>		
+			<br/>
+			<div id="ask">
+				<textarea id="askBox" cols="25px" rows="7px"></textarea>			
+				<div id="ask1">
+				<input  type="button" value="쪽지">
+				<input type="button" value="이메일">
+				</div>
+			</div>
 		</div>
 		
 		<div id="menu">		
@@ -194,10 +213,7 @@
 					<td class="menu">물물 교환</td>					
 				</tr>
 			</table>
-		</div>			
-	</body>
+		</div>
+					
+	</body>	
 </html>
-
-<div id=content>
-	
-</div>
