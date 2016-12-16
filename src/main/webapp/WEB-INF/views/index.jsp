@@ -136,7 +136,8 @@
 				border: 1px solid;
 				padding: 5px;
 			}
-			#contents{
+			
+			#content{
 				margin-left: 130px;
 				margin-right: 130px;				
 				width: 850px;
@@ -193,3 +194,7 @@
 		</div>			
 	</body>
 </html>
+
+<div id=content>
+	
+</div>
