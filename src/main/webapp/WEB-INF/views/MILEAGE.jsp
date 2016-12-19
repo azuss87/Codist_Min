@@ -32,7 +32,7 @@
 		text-align: right;
 		}
 		#in{
-		left: 100px;
+		left: 200px;
 		top: 215px;
 		}
 		</style>

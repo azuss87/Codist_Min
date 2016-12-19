@@ -10,15 +10,10 @@
 			#a{
 				width: 600px;
 				position: absolute;
-				left: 100px;
-				top: 220px;
-               
-                border-width: 10px;
-                
-                
-             
-				
-			}
+				left: 200px;
+				top: 190px;
+           
+   			}
 		</style>
  	</head>
   	<body>
