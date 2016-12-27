@@ -9,13 +9,14 @@
 		<style>
 			#mem{
 				position: absolute;
-				left: 200px;	
-				top: -1px;	
+				left: 350px;	
+				top: 180px;	
 			}
 		</style>
  	</head>
   	<body>
    	<body>
+   	<jsp:include page="index.jsp"></jsp:include>
   		<div id="in">
   	<jsp:include page="mypagehome.jsp"></jsp:include>
   	</div>
